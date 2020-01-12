@@ -1,9 +1,7 @@
 import org.junit.Before;
 import org.junit.Test;
 
-import java.util.ArrayList;
-
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.*;
 
 public class FlightTest {
 
@@ -11,7 +9,9 @@ public class FlightTest {
     Passenger passenger1;
     Passenger passenger2;
     Plane plane;
+    Plane plane2;
     Flight flight;
+    Flight flight2;
 
 
     @Before
@@ -19,7 +19,11 @@ public class FlightTest {
         passenger1 = new Passenger("Tony", 2);
         passenger2 = new Passenger("Jony", 1);
         plane = new Plane(PlaneType.BOEING747);
-        flight = new Flight(plane, "FR756", Destination.EDI, Destination.GLA, "10:00");
+        plane2 = new Plane(PlaneType.BUDGIE);
+        flight = new Flight(plane, "FR756",
+                Destination.EDI, Destination.GLA, "10:00");
+        flight2 = new Flight(plane, "FO756",
+                Destination.ABZ, Destination.BEB, "13:05");
     }
 
     @Test
@@ -55,5 +59,19 @@ public class FlightTest {
     @Test
     public void canGetEmptySeats(){
         assertEquals(50, flight.getEmptySeats());
+    }
+
+    @Test
+    public void canBookPassenger(){
+        flight.bookPassenger(passenger1);
+        assertEquals(49, flight.getEmptySeats());
+        assertTrue(flight.getPassengers().contains(passenger1));
+    }
+
+    public void cantBookPassengerIfFull(){
+        flight2.bookPassenger(passenger1);
+        flight2.bookPassenger(passenger2);
+        assertEquals(0, flight2.getEmptySeats());
+        assertFalse(flight2.getPassengers().contains(passenger2));
     }
 }
