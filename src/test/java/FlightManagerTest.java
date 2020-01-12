@@ -40,6 +40,11 @@ public class FlightManagerTest {
         assertEquals(1, flightManager.getTotalWeightBaggageBooked(flight));
 
     }
-    //calculate how much baggage weight is booked by passengers of a flight
+
+    @Test
+    public void canGetRemainingWeight(){
+        flight.bookPassenger(passenger2);
+        assertEquals(49, flightManager.getRemainingWeight());
+    }
     //calculate how much overall weight reserved for baggage remains for a flight
 }

@@ -18,4 +18,7 @@ public class FlightManager {
         }
         return totalWeight;
     }
+
+    public int getRemainingWeight() {
+    }
 }
