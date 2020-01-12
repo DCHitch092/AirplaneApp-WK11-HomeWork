@@ -9,7 +9,7 @@ public class PassengerTest {
 
     @Before
     public void before(){
-        passenger = new Passenger("Tony");
+        passenger = new Passenger("Tony", 2);
     }
 
     @Test
@@ -19,7 +19,7 @@ public class PassengerTest {
 
     @Test
     public void hasBags(){
-        assertEquals("2", passenger.getBags());
+        assertEquals(2, passenger.getBags());
     }
 
 
