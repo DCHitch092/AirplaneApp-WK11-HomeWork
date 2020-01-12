@@ -22,7 +22,7 @@ public class FlightTest {
         plane2 = new Plane(PlaneType.BUDGIE);
         flight = new Flight(plane, "FR756",
                 Destination.EDI, Destination.GLA, "10:00");
-        flight2 = new Flight(plane, "FO756",
+        flight2 = new Flight(plane2, "FO756",
                 Destination.ABZ, Destination.BEB, "13:05");
     }
 

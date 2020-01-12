@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2f0b529-368d-4c7e-8863-0b16dcb10395" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Flight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Flight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FlightTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FlightTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Flight.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Flight.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +40,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
-  <component name="RunManager" selected="JUnit.FlightTest.canBookPassenger">
+  <component name="RunManager" selected="JUnit.FlightTest.cantBookPassengerIfFull">
     <configuration name="FlightTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AirlineHomework" />
       <option name="PACKAGE_NAME" value="" />
@@ -73,11 +70,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FlightTest.hasDeparture" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FlightTest.cantBookPassengerIfFull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AirlineHomework" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="FlightTest" />
-      <option name="METHOD_NAME" value="hasDeparture" />
+      <option name="METHOD_NAME" value="cantBookPassengerIfFull" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -95,11 +92,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FlightTest.cantBookPassengerIfFull" />
         <item itemvalue="JUnit.FlightTest.canBookPassenger" />
         <item itemvalue="JUnit.FlightTest" />
         <item itemvalue="JUnit.FlightTest.canGetEmptySeats" />
         <item itemvalue="JUnit.FlightTest.hasDepartureTime" />
-        <item itemvalue="JUnit.FlightTest.hasDeparture" />
       </list>
     </recent_temporary>
   </component>
@@ -133,22 +130,26 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="353" y="165" key="#com.intellij.featureStatistics.actions.ShowFeatureUsageStatisticsDialog/0.0.1440.900@0.0.1440.900" timestamp="1578788809398" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1578833826925">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1578834614992">
+      <screen x="0" y="23" width="1440" height="819" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1578833826925" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1578833826923">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1578834471616" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.23.1440.819@0.23.1440.819" timestamp="1578834614992" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1578834614991">
+      <screen x="0" y="23" width="1440" height="819" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1578833826923" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1578833826923">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1578834471614" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.23.1440.819@0.23.1440.819" timestamp="1578834614991" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1578834614990">
+      <screen x="0" y="23" width="1440" height="819" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1578833826923" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1578833826924">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1578834471614" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.23.1440.819@0.23.1440.819" timestamp="1578834614990" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1578834614991">
+      <screen x="0" y="23" width="1440" height="819" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1578833826924" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1578834471615" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.23.1440.819@0.23.1440.819" timestamp="1578834614991" />
     <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1578788119035">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
