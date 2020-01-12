@@ -11,7 +11,6 @@ public enum Destination {
     ILY,
     KOI,
     NRL,
-    KOI,
     OUK,
     PSV,
     PPW,

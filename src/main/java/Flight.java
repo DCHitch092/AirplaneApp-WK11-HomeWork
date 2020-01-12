@@ -4,11 +4,13 @@ public class Flight {
     private ArrayList<Passenger> passengers;
     private Plane plane;
     private String flightNumber;
+    private Destination destination;
 
-    public Flight(Plane plane, String flightNumber){
+    public Flight(Plane plane, String flightNumber, Destination destination){
         this.passengers = new ArrayList<Passenger>();
         this.plane = plane;
         this.flightNumber = flightNumber;
+        this.destination = destination;
     }
 
     public ArrayList<Passenger> getPassengers() {
@@ -21,5 +23,9 @@ public class Flight {
 
     public String getFlightNumber() {
         return flightNumber;
+    }
+
+    public Destination getDestination() {
+        return destination;
     }
 }

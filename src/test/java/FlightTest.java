@@ -19,7 +19,7 @@ public class FlightTest {
         passenger1 = new Passenger("Tony", 2);
         passenger2 = new Passenger("Jony", 1);
         plane = new Plane(PlaneType.BOEING747);
-        flight = new Flight(plane, "FR756");
+        flight = new Flight(plane, "FR756", Destination.EDI);
     }
 
     @Test
