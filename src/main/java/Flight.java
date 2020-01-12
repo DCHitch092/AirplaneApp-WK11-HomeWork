@@ -1,13 +1,20 @@
 import java.util.ArrayList;
 
 public class Flight {
-    private ArrayList<Plane> planes;
+    private ArrayList<Passenger> passengers;
+    private Plane plane;
 
-    public Flight(){
-        this.planes = new ArrayList<Plane>();
+    public Flight(Plane plane){
+        this.passengers = new ArrayList<Passenger>();
+        this.plane = plane;
     }
 
-    public ArrayList<Plane> getPlanes() {
-        return planes;
+    public ArrayList<Passenger> getPassengers() {
+        return passengers;
+    }
+
+
+    public Plane getPlane() {
+        return plane;
     }
 }

@@ -12,7 +12,6 @@ public class FlightTest {
     Passenger passenger2;
     Plane plane;
     Flight flight;
-    ArrayList<Plane> planes;
 
 
     @Before
@@ -20,11 +19,16 @@ public class FlightTest {
         passenger1 = new Passenger("Tony", 2);
         passenger2 = new Passenger("Jony", 1);
         plane = new Plane(PlaneType.BOEING747);
-        flight = new Flight();
+        flight = new Flight(plane);
     }
 
     @Test
     public void hasPassengers(){
         assertEquals(0, flight.getPassengers().size());
+    }
+
+    @Test
+    public void hasPlane(){
+        assertEquals(plane, flight.getPlane());
     }
 }
