@@ -40,4 +40,10 @@ public class Flight {
     public String getDepartureTime(){
         return departureTime;
     }
+
+    public int getEmptySeats() {
+        int fullCapacity = this.getPlane().getCapacity();
+        int currentPassengers = getPassengers().size();
+        return fullCapacity - currentPassengers;
+    }
 }

@@ -53,7 +53,7 @@ public class FlightTest {
     }
 
     @Test
-    public void hasEmptySeats(){
-        assertEquals(49, flight.getEmptySeats());
+    public void canGetEmptySeats(){
+        assertEquals(50, flight.getEmptySeats());
     }
 }
