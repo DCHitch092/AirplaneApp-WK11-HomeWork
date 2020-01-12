@@ -5,7 +5,6 @@ import static org.junit.Assert.*;
 
 public class FlightTest {
 
-
     Passenger passenger1;
     Passenger passenger2;
     Plane plane;
