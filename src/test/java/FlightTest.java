@@ -36,4 +36,15 @@ public class FlightTest {
     public void hasFlightNumber(){
         assertEquals("FR756", flight.getFlightNumber());
     }
+
+    @Test
+    public void hasDestination(){
+      assertEquals(Destination.EDI, flight.getDestination());
+    }
+
+//    @Test
+//    public void hasDepature(){
+//        assertEquals(Destination.GLA, flight.getDeparture());
+//    }
+
 }
