@@ -40,7 +40,27 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
-  <component name="RunManager" selected="JUnit.FlightTest.hasDepature">
+  <component name="RunManager" selected="JUnit.FlightTest.hasDepartureTime">
+    <configuration name="FlightTest.hasDeparture" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AirlineHomework" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FlightTest" />
+      <option name="METHOD_NAME" value="hasDeparture" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FlightTest.hasDepartureTime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AirlineHomework" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FlightTest" />
+      <option name="METHOD_NAME" value="hasDepartureTime" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FlightTest.hasDepature" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AirlineHomework" />
       <option name="PACKAGE_NAME" value="" />
@@ -71,33 +91,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FlightTest.hasPassengers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AirlineHomework" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FlightTest" />
-      <option name="METHOD_NAME" value="hasPassengers" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FlightTest.hasPlane" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AirlineHomework" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FlightTest" />
-      <option name="METHOD_NAME" value="hasPlane" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FlightTest.hasDepartureTime" />
+        <item itemvalue="JUnit.FlightTest.hasDeparture" />
         <item itemvalue="JUnit.FlightTest.hasDepature" />
         <item itemvalue="JUnit.FlightTest.hasDestination" />
         <item itemvalue="JUnit.FlightTest.hasFlightNumber" />
-        <item itemvalue="JUnit.FlightTest.hasPassengers" />
-        <item itemvalue="JUnit.FlightTest.hasPlane" />
       </list>
     </recent_temporary>
   </component>
@@ -131,22 +131,22 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="353" y="165" key="#com.intellij.featureStatistics.actions.ShowFeatureUsageStatisticsDialog/0.0.1440.900@0.0.1440.900" timestamp="1578788809398" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1578832301367">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1578832646612">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1578832301367" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1578832301365">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1578832646612" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1578832646610">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1578832301365" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1578832301365">
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1578832646610" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1578832646610">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1578832301365" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1578832301366">
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1578832646610" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1578832646611">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1578832301366" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1578832646611" />
     <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1578788119035">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

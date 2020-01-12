@@ -6,13 +6,15 @@ public class Flight {
     private String flightNumber;
     private Destination destination;
     private Destination departure;
+    private String departureTime;
 
-    public Flight(Plane plane, String flightNumber, Destination destination, Destination departure){
+    public Flight(Plane plane, String flightNumber, Destination destination, Destination departure, String departureTime){
         this.passengers = new ArrayList<Passenger>();
         this.plane = plane;
         this.flightNumber = flightNumber;
         this.destination = destination;
         this.departure = departure;
+        this.departureTime = departureTime;
     }
 
     public ArrayList<Passenger> getPassengers() {
@@ -33,5 +35,9 @@ public class Flight {
 
     public Destination getDeparture() {
         return departure;
+    }
+
+    public String getDepartureTime(){
+        return departureTime;
     }
 }

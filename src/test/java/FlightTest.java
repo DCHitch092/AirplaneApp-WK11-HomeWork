@@ -49,7 +49,7 @@ public class FlightTest {
 
     @Test
     public void hasDepartureTime(){
-        assertEquals("10:00", flight.getDepatureTime());
+        assertEquals("10:00", flight.getDepartureTime());
     }
 
 }
