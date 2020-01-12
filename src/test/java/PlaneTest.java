@@ -21,12 +21,12 @@ public class PlaneTest {
 
     @Test
     public void hasCapacity(){
-        assertEquals(50, plane.getCapacity;);
+        assertEquals(50, plane.getCapacity());
     }
 
 //    @Test
 //    public void hasTotalWeight(){
-//        assertEquals(100, plane.getTotalWeight);
+//        assertEquals(100, plane.getTotalWeight());
 //    }
 
 }

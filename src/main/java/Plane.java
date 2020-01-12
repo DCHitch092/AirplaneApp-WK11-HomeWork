@@ -9,4 +9,8 @@ public class Plane {
     public PlaneType getPlaneType(){
         return type;
     }
+
+    public int getCapacity() {
+        return type.getCapacity();
+    }
 }
