@@ -42,9 +42,9 @@ public class FlightTest {
       assertEquals(Destination.EDI, flight.getDestination());
     }
 
-//    @Test
-//    public void hasDepature(){
-//        assertEquals(Destination.GLA, flight.getDeparture());
-//    }
+    @Test
+    public void hasDepature(){
+        assertEquals(Destination.GLA, flight.getDeparture());
+    }
 
 }
