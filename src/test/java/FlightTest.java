@@ -24,7 +24,7 @@ public class FlightTest {
     }
 
     @Test
-    public void hasPlanes(){
-        assertEquals(0, flight.getPlanes().size());
+    public void hasPassengers(){
+        assertEquals(0, flight.getPassengers().size());
     }
 }
