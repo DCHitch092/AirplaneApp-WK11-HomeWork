@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class FlightManager {
 
     public int eachPassengerBaggageSize(Flight flight) {
@@ -7,5 +9,13 @@ public class FlightManager {
     }
 
     public int getTotalWeightBaggageBooked(Flight flight) {
+        ArrayList<Passenger> passengers = flight.getPassengers();
+        if(passengers.size() == 0){ return 0; }
+
+        int totalWeight = 0;
+        for (Passenger passenger : passengers){
+            totalWeight += passenger.getBags();
+        }
+        return totalWeight;
     }
 }
