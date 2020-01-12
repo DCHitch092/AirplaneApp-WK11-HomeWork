@@ -68,6 +68,7 @@ public class FlightTest {
         assertTrue(flight.getPassengers().contains(passenger1));
     }
 
+    @Test
     public void cantBookPassengerIfFull(){
         flight2.bookPassenger(passenger1);
         flight2.bookPassenger(passenger2);
