@@ -19,7 +19,7 @@ public class FlightTest {
         passenger1 = new Passenger("Tony", 2);
         passenger2 = new Passenger("Jony", 1);
         plane = new Plane(PlaneType.BOEING747);
-        flight = new Flight(plane, "FR756", Destination.EDI, Destination.GLA);
+        flight = new Flight(plane, "FR756", Destination.EDI, Destination.GLA, "10:00");
     }
 
     @Test
@@ -43,8 +43,13 @@ public class FlightTest {
     }
 
     @Test
-    public void hasDepature(){
+    public void hasDeparture(){
         assertEquals(Destination.GLA, flight.getDeparture());
+    }
+
+    @Test
+    public void hasDepartureTime(){
+        assertEquals("10:00", flight.getDepatureTime());
     }
 
 }
