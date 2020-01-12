@@ -1,6 +1,8 @@
 import org.junit.Before;
 import org.junit.Test;
 
+import java.util.ArrayList;
+
 import static org.junit.Assert.assertEquals;
 
 public class FlightTest {
@@ -10,6 +12,7 @@ public class FlightTest {
     Passenger passenger2;
     Plane plane;
     Flight flight;
+    ArrayList<Plane> planes;
 
 
     @Before
@@ -17,7 +20,7 @@ public class FlightTest {
         passenger1 = new Passenger("Tony", 2);
         passenger2 = new Passenger("Jony", 1);
         plane = new Plane(PlaneType.BOEING747);
-        flight = new Flight(plane);
+        flight = new Flight();
     }
 
     @Test

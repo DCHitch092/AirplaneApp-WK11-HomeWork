@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2f0b529-368d-4c7e-8863-0b16dcb10395" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Flight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/FlightTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Flight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Flight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FlightTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FlightTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +40,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RunManager" selected="JUnit.FlightTest.hasPlanes">
     <configuration name="FlightTest.hasPlanes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -133,22 +133,22 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="353" y="165" key="#com.intellij.featureStatistics.actions.ShowFeatureUsageStatisticsDialog/0.0.1440.900@0.0.1440.900" timestamp="1578788809398" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1578789235540">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1578790253594">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1578789235540" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1578789235539">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1578790253594" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1578790253592">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1578789235539" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1578789235538">
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1578790253592" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1578790253591">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1578789235538" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1578789235539">
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1578790253591" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1578790253593">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1578789235539" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1578790253593" />
     <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1578788119035">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -165,5 +165,9 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1578788119034" />
+    <state x="221" y="89" key="SettingsEditor" timestamp="1578790197339">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1578790197339" />
   </component>
 </project>
