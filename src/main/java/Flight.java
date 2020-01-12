@@ -13,8 +13,9 @@ public class Flight {
         return passengers;
     }
 
-
     public Plane getPlane() {
         return plane;
     }
+
+
 }
